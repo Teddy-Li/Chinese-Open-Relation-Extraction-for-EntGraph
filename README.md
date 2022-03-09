@@ -1,7 +1,7 @@
 # Open Relation Extraction Algorithm for Chinese Entailment Graphs
 
 ## Overview
-This repository is part of the [Chinese Entailment Graph project]().
+This repository is part of the [Chinese Entailment Graph project](https://github.com/Teddy-Li/ChineseEntGraph).
 Within this repository is the Chinese open relation extraction (ORE) method used for building Chinese entailment graphs. 
 This algorithm is based on the dependency labels outputted by [DDParser](https://github.com/baidu/DDParser), 
 and provides a comprehensive account for the Chinese linguistic constructions relevant to open relations. 
@@ -51,8 +51,8 @@ through these options or modify on our codes if you are looking to extract open 
 ## Next Steps
 
 For building Chinese Entailment Graphs, this resulting file with the corpus and its extracted open relations
-is fed into our [NE_Pipeline](), where the argument type information is added to each relation triple; the typed relation 
-triples are then used to construct Chinese entailment graphs with [CEntGraph](), then evaluated in [chinese_entgraph_eval]().
+is fed into our [EGZH Support Pipeline](https://github.com/Teddy-Li/EGZH-Support-Pipeline), where the argument type information is added to each relation triple; the typed relation 
+triples are then used to construct Chinese entailment graphs with [EntGraph_Zh](), then evaluated in [chinese_entgraph_eval]().
 
 ## Cite Us
 
